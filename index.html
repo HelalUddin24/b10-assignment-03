@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Welcome to Rinterio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--google font-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+  <main class="max-w-screen-xl mx-auto bg-[#1E1E1E]">
+    <header class="bg-gradient-to-r from-gray-50 to-gray-100 pt-9 px-5 md:px-6 lg:px-8 lg:pb-24">
+              <!--nav bar section-->
+      <section class="flex items-center justify-between">
+        <div class="flex items-center w-1/4">
+          <div class="bg-[#ABEF5F] p-2 font-bold rounded-full">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+          </div>
+          <h1 class="text-3xl text-[#212121] font-extrabold ml-2 justify-start lg:text-4xl">Rinterio</h1>
+        </div>
+        <div class="hidden md:flex md:block lg:flex lg:block items-center w-3/4 justify-between">
+          <ul class="flex md:gap-3 lg:gap-6">
+            <li class="lg:font-extrabold"><a href="http://">Home</a></li>
+            <li><a href="http://">Service</a></li>
+            <li><a href="http://">Portfolio</a></li>
+            <li><a href="http://">Blogs</a></li>
+            <li><a href="http://">Contact Us</a></li>
+          </ul>
+                  <!--hero icon-->
+          <div class="flex items-center md:gap-2 lg:gap-4">
+            <div class="p-2 bg-gray-50 rounded-full shadow-lg border border-solid border-gray-200">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>                    
+            </div>
+            <div class="p-2 bg-gray-50 rounded-full shadow-lg border border-solid border-gray-200">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>                    
+            </div>
+            <div class="flex md:px-2 lg:px-3 py-2 bg-[#ABEF5F] rounded-3xl gap-3">
+              <button class="md:font-bold lg:font-extrabold md:text-xs lg:text-xl">Book Consult</button>
+              <div class="bg-black p-2 font-bold rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="justify-items-end lg:hidden md:hidden p-2 rounded-full shadow-lg border border-solid border-gray-400">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8 font-bold">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </div>
+      </section>
+          <!--banner section-->
+      <section>
+        <div class="lg:mt-14 lg:mb-6 lg:justify-center lg:flex">
+          <img class="" src="./assets/banner.png" alt="banner image">
+        </div>
+        <div>
+          <h1 class="font-extrabold text-3xl text-[#212121] text-center mb-5 lg:text-6xl">A barn house of this design  has a striking appearance</h1>
+        </div>
+        <div>
+          <p class="text-center mb-5 lg:px-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+        </div>
+        <div class="lg: flex lg: justify-center">
+          <div class="flex w-full lg:w-52 py-2 bg-lime-200 rounded-3xl justify-center items-center gap-2 border border-solid border-lime-500">
+            <button class="font-bold text-xl">View Details</button>
+            <div class="bg-lime-400 p-2 font-bold rounded-full">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <footer></footer>
+  </main>
+</body>
+</html>
