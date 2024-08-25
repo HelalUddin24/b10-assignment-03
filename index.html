@@ -1,28 +1,28 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+         extend: {
+          colors: {
+            clifford: '#da373d',
           }
         }
-      </script>
-    <title>Welcome to Rinterio</title>
-    <link rel="stylesheet" href="style.css">
+      }
+    }
+  </script>
+  <title>Welcome to Rinterio</title>
+  <link rel="stylesheet" href="style.css">
 
     <!--google font-->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 
 </head>
 
@@ -101,11 +101,11 @@
   <main class="px-5 lg:px-8">
     <!--about section-->
     <section>
-      <!--about title-->
-      <div class="hidden md:block lg:block pt-5">
+      <div class="hidden lg:ml-[-32px] md:block lg:block pt-5">
         <img class="" src="./assets/Vector.png" alt="Vector image">
       </div>
-      <div class="md:flex lg:flex lg:gap-8 pt-4 lg:px-8 lg:justify-center">
+      <!--about title-->
+      <div class="md:flex lg:flex lg:gap-8 pt-4 lg:justify-center">
         <div class="lg:w-1/2">
           <div class="mb-5">
             <div class="flex justify-center mt-5 lg:mt-0 mb-5 lg:justify-start">        
@@ -141,6 +141,88 @@
         </div>
         <div class="lg:w-1/2 border border-solid lg:mb-5">
           <img class="max-h-52 w-full lg:max-h-[440px] object-cover rounded-xl" src="./assets/Rectangle.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section>
+      <!--statistic section-->
+      <div class="bg-white rounded-xl mt-5 lg:mt-24 lg:flex lg:justify-around py-5 lg:p-8">
+        <div class="p-5">
+          <svg class="mx-auto" width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.8334 20.5001H25.1667M11.8334 12.1667H18.5" stroke="#737373" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M8.66472 29.6667C6.49787 29.4536 4.87462 28.8027 3.78599 27.7141C1.83337 25.7616 1.83337 22.6187 1.83337 16.3334V15.5001C1.83337 9.21468 1.83337 6.072 3.78599 4.11936C5.73862 2.16675 8.88131 2.16675 15.1667 2.16675H21.8334C28.1187 2.16675 31.2615 2.16675 33.214 4.11936C35.1667 6.072 35.1667 9.21468 35.1667 15.5001V16.3334C35.1667 22.6187 35.1667 25.7616 33.214 27.7141C31.2615 29.6667 28.1187 29.6667 21.8334 29.6667C20.8992 29.6876 20.1552 29.7586 19.4244 29.9251C17.427 30.3849 15.5775 31.4069 13.7498 32.2982C11.1455 33.5681 9.84337 34.2031 9.02619 33.6086C7.46286 32.4442 8.99094 28.8366 9.33337 27.1667" stroke="#737373" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+          <h1 class="text-center font-extrabold text-4xl text-gray-700 py-2.5">235+</h1>
+          <p class="text-center font-medium text-gray-500">Happy Client Review</p>
+        </div>
+        <div class="p-5">
+          <svg class="mx-auto" width="33" height="36" viewBox="0 0 33 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M31.5 21.1435L31.4998 13.2189C31.4988 11.3268 31.4983 10.3807 31.0383 9.58747C30.5783 8.79424 29.7573 8.33102 28.1153 7.40457L19.74 2.67897C18.1563 1.78541 17.3645 1.33862 16.5 1.33862C15.6355 1.33862 14.8437 1.78541 13.26 2.67897L4.88467 7.40457C3.2427 8.33102 2.42172 8.79424 1.96167 9.58747C1.5016 10.3807 1.50115 11.3268 1.50022 13.2189L1.5 21.1435C1.5 27.521 1.5 30.7096 3.45262 32.6908C5.40525 34.672 8.54793 34.672 14.8333 34.672H18.1667C24.452 34.672 27.5948 34.672 29.5473 32.6908C31.5 30.7096 31.5 27.521 31.5 21.1435Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M13.1666 19.672H9.83331M23.1666 19.672H19.8333M13.1666 13.0054H9.83331M13.1666 26.3387H9.83331M23.1666 13.0054H19.8333M23.1666 26.3387H19.8333" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>                        
+          <h1 class="text-center font-extrabold text-4xl text-gray-700 py-2.5">50+</h1>
+          <p class="text-center font-medium text-gray-500">Work Depertment</p>
+        </div>
+        <div class="p-5">
+          <svg class="mx-auto" width="39" height="30" viewBox="0 0 39 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M34.1233 25.0041C35.3722 25.0041 36.3655 24.2183 37.2575 23.1193C39.0832 20.8698 36.0855 19.0721 34.9423 18.1918C33.78 17.2968 32.4823 16.7898 31.1667 16.6708M29.5 13.3375C31.8012 13.3375 33.6667 11.472 33.6667 9.17082C33.6667 6.86963 31.8012 5.00415 29.5 5.00415" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M4.87662 25.0041C3.62778 25.0041 2.63447 24.2183 1.7426 23.1193C-0.0831683 20.8698 2.91447 19.0721 4.05777 18.1918C5.21997 17.2968 6.51765 16.7898 7.83335 16.6708M8.66668 13.3375C6.3655 13.3375 4.50002 11.472 4.50002 9.17082C4.50002 6.86963 6.3655 5.00415 8.66668 5.00415" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M12.973 20.1894C11.2701 21.2424 6.805 23.3926 9.52452 26.0831C10.853 27.3974 12.3325 28.3374 14.1927 28.3374H24.8073C26.6675 28.3374 28.147 27.3974 29.4755 26.0831C32.195 23.3926 27.73 21.2424 26.027 20.1894C22.0335 17.7201 16.9665 17.7201 12.973 20.1894Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M25.3334 7.50423C25.3334 10.7259 22.7217 13.3376 19.5 13.3376C16.2784 13.3376 13.6667 10.7259 13.6667 7.50423C13.6667 4.28257 16.2784 1.6709 19.5 1.6709C22.7217 1.6709 25.3334 4.28257 25.3334 7.50423Z" stroke="#737373" stroke-width="1.5"/>
+          </svg>            
+          <h1 class="text-center font-extrabold text-4xl text-gray-700 py-2.5">30K+</h1>
+          <p class="text-center font-medium text-gray-500">Our Happy Client</p>
+        </div>
+        <div class="p-5">
+          <svg class="mx-auto" width="37" height="31" viewBox="0 0 37 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M29.5268 28.3403H30.3438C32.2602 28.3403 33.7845 27.4672 35.1532 26.2463C38.63 23.1447 30.4568 20.007 27.6667 20.007M24.3333 3.45495C24.7118 3.37988 25.1048 3.34033 25.508 3.34033C28.5412 3.34033 31 5.57892 31 8.34033C31 11.1017 28.5412 13.3403 25.508 13.3403C25.1048 13.3403 24.7118 13.3008 24.3333 13.2257" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M5.96885 21.8591C4.0039 22.9121 -1.1481 25.0622 1.9898 27.7527C3.52265 29.0671 5.22985 30.0071 7.3762 30.0071H19.6238C21.7702 30.0071 23.4773 29.0671 25.0102 27.7527C28.1482 25.0622 22.9962 22.9121 21.0312 21.8591C16.4233 19.3897 10.5767 19.3897 5.96885 21.8591Z" stroke="#737373" stroke-width="1.5"/>
+            <path d="M20.1667 7.507C20.1667 11.1889 17.1818 14.1737 13.5 14.1737C9.81811 14.1737 6.83334 11.1889 6.83334 7.507C6.83334 3.8251 9.81811 0.840332 13.5 0.840332C17.1818 0.840332 20.1667 3.8251 20.1667 7.507Z" stroke="#737373" stroke-width="1.5"/>
+          </svg>
+          <h1 class="text-center font-extrabold text-4xl text-gray-700 py-2.5">307+</h1>
+          <p class="text-center font-medium text-gray-500">Staff Member</p>
+        </div>
+      </div>
+    </section>
+    
+    <!--work section-->
+    <section class=" mt-11 lg:mt-24">
+      <div>
+        <div class="flex justify-center mt-5 lg:mt-0 mb-5 lg:justify-center">        
+          <button class="flex bg-white font-bold py-2 px-5 rounded-3xl gap-3 text-gray-600">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>
+            How We Works
+          </button>
+        </div>
+        <!--work heading-->
+        <div class="mb-4">
+          <h1 class="text-2xl font-bold text-gray-700 text-center my-4">Our Works Process</h1>
+          <p class="font-medium text-gray-500 text-center lg:px-60">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <!--work card-->
+        <div class="lg:flex gap-6 lg:mt-8">
+          <div class="p-6 bg-pink-200 rounded-xl mb-4">
+            <img src="./assets/concept.png" alt="">
+            <h1 class="font-extrabold text-xl text-gray-800 my-2.5">Concept</h1>
+            <p class="font-medium text-gray-500 pr-8 lg:pr-3">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="p-6 bg-yellow-300 rounded-xl mb-4">
+            <img src="./assets/flow-chart.png" alt="">
+            <h1 class="font-extrabold text-xl text-gray-800 my-2.5">Design Process</h1>
+            <p class="font-medium text-gray-500 pr-8 lg:pr-3">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="p-6 bg-green-300 rounded-xl mb-4">
+            <img src="./assets/vision.png" alt="">
+            <h1 class="font-extrabold text-xl text-gray-800 my-2.5 lg:pr-3">Supervision</h1>
+            <p class="font-medium text-gray-500 pr-8">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          <div class="p-6 bg-blue-300 rounded-xl mb-4">
+            <img src="./assets/budget-planning.png" alt="">
+            <h1 class="font-extrabold text-xl text-gray-800 my-2.5 lg:pr-3">Budget Planning</h1>
+            <p class="font-medium text-gray-500 pr-8">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
         </div>
       </div>
     </section>
